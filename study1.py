@@ -4,7 +4,7 @@ import logging
 from telegram.ext import MessageHandler, Filters
 from telegram.ext import CommandHandler
 #bot = telegram.Bot(token='1709227246:AAHprWyr-JKWtDe_nhDdbnJd_Zih2vKIvec')
-updater = Updater(token='1709227246:AAHprWyr-JKWtDe_nhDdbnJd_Zih2vKIvec', use_context=True)
+updater = Updater(token='TOKEN', use_context=True)
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
