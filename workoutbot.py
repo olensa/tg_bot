@@ -4,7 +4,7 @@ import csv
 from pathlib import Path
 from csv import reader
 
-bot = telebot.TeleBot('1745192121:AAH8gMsInTycNrIL-uPkcptOIirbfiaHNTw')
+bot = telebot.TeleBot('TOKEN')
 
 #@bot.message_handler(content_types=['text'])
 
