@@ -4,8 +4,8 @@ import logging
 import telegram_token
 from telegram.ext import MessageHandler, Filters
 from telegram.ext import CommandHandler
-from telegram import InlineQueryResultArticle, InputTextMessageContent
-from telegram.ext import InlineQueryHandler
+from telegram import InlineQueryResultArticle, InputTextMessageContent, InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram.ext import InlineQueryHandler, CallbackQueryHandler, CallbackContext
 import csv
 from pathlib import Path
 from csv import reader
