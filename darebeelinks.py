@@ -36,7 +36,7 @@ def reg(update,context):
 
     update.message.reply_text('Ok, I will remember your program',reply_markup=reply_markup)
 def save_to_file(data):
-    with open('links_tests.csv', 'a') as csv_file:
+    with open('links.csv', 'a') as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=',')
         csv_writer.writerow(data)
 def send_link (update, context):
