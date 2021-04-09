@@ -18,14 +18,7 @@ dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
 
 def start(update, context):
-    keyboard = [
-        [
-            InlineKeyboardButton('Register a link', callback_data='reg')
-        ]
-    ]
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    context.bot.send_message(chat_id=update.effective_chat.id, text="Hi I'm bot. Press '/reg' and your link to register", reply_markup=reply_markup)
-
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Hi I'm bot. Type '/reg' and your link to register")
 
 def reg(update,context):
     day = 1
@@ -70,8 +63,6 @@ def button(update, context):
         prev(update.callback_query, context)
     elif query.data == 'link':
         send_link(update.callback_query,context)
-    elif query.data =='reg':
-        reg(update.callback_query, context)
     query.answer()
 
 
