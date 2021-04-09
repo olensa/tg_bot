@@ -27,15 +27,45 @@ def reg(update,context):
     chat_id = update.message.chat_id
     data = [day, link+day_link, chat_id]
     save_to_file(data)
-    context.bot.send_message(chat_id=update.effective_chat.id, text = "Ok, I'll remember your program. To start your day - type '/link'.")
+    keyboard = [
+        [
+            InlineKeyboardButton("Today's link", callback_data='link')
+        ]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    update.message.reply_text('Ok, I will remember your program',reply_markup=reply_markup)
 def save_to_file(data):
-    with open('links.csv', 'a') as csv_file:
+    with open('links_tests.csv', 'a') as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=',')
         csv_writer.writerow(data)
 def send_link (update, context):
     read = read_file(update.message.chat_id)
     my_link = read[1]+read[0]
-    context.bot.send_message(chat_id=update.effective_chat.id, text='Here is your link '+my_link + '. If you want to see your previous day - type"/previous". If you want to see your next day - type "/next"')
+    context.bot.send_message(chat_id=update.message.chat.id, text='Here is your link '+my_link)
+    options(update, context) 
+
+def options (update, context):
+    keyboard = [
+            [
+                InlineKeyboardButton("Next Day", callback_data='next'),
+                InlineKeyboardButton("Previous Day", callback_data='Previous')
+            ]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    update.message.reply_text('Please choose:',reply_markup=reply_markup)
+
+def button(update, context):
+    query = update.callback_query
+    if query.data == 'next':
+        next(update.callback_query,context)
+    elif query.data == 'Previous':
+        prev(update.callback_query, context)
+    elif query.data == 'link':
+        send_link(update.callback_query,context)
+    query.answer()
+
+
 def read_file(user_id):
     my_file = Path("links.csv")
     if my_file.is_file():
@@ -46,6 +76,10 @@ def read_file(user_id):
                     link = row[1]
                     id = row[-1]
                     day = row[0]
+    else:
+        day = str(1)
+        id = user_id
+        link = ''
     data_list=[day,link,id]
     return data_list
 def unknown(update, context):
@@ -75,7 +109,7 @@ reg_handler = CommandHandler('reg', reg)
 send_link_handler = CommandHandler ('link', send_link)
 unknown_handler = MessageHandler(Filters.command, unknown)
 
-
+dispatcher.add_handler(CallbackQueryHandler(button))
 dispatcher.add_handler(send_link_handler)
 dispatcher.add_handler(reg_handler)
 dispatcher.add_handler(start_handler)
