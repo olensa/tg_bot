@@ -48,8 +48,9 @@ def send_link (update, context):
 def options (update, context):
     keyboard = [
             [
-                InlineKeyboardButton("Next Day", callback_data='next'),
-                InlineKeyboardButton("Previous Day", callback_data='Previous')
+                InlineKeyboardButton("<-- Previous", callback_data='Previous'),
+                InlineKeyboardButton("Today", callback_data='link'),
+                InlineKeyboardButton("Next-->", callback_data='next')
             ]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
