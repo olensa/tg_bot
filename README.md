@@ -5,7 +5,7 @@
 Telegram bot, which will allow user to choose a program and will send daily exercises.
 
 <!-- Some badges from shields.io-->
-[![Python version](https://img.shields.io/pypi/pyversions/3)](https://www.python.org/download/releases/3.0/)[![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)](https://github.com/olensa/tg_bot)[![GitHub issues](https://img.shields.io/github/issues-raw/olensa/tg_bot)](https://github.com/olensa/tg_bot/issues)[![GitHub pull requests](https://img.shields.io/github/issues-pr/olensa/tg_bot)](https://github.com/olensa/tg_bot/pulls)[![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)](https://github.com/olensa/tg_bot/releases)[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/olensa/tg_bot/blob/main/LICENSE.txt)
+[![Python version](https://img.shields.io/pypi/pyversions/3)](https://www.python.org/download/releases/3.0/) [![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)](https://github.com/olensa/tg_bot) [![GitHub issues](https://img.shields.io/github/issues-raw/olensa/tg_bot)](https://github.com/olensa/tg_bot/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/olensa/tg_bot)](https://github.com/olensa/tg_bot/pulls) [![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)](https://github.com/olensa/tg_bot/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/olensa/tg_bot/blob/main/LICENSE.txt)
 
 
 
@@ -20,7 +20,7 @@ Telegram bot, which will allow user to choose a program and will send daily exer
 # Installation
 [(Back to top)](#table-of-contents)
 
-This project is running authomatically on digital ocean, so you can simply add this bot to your telegram account with this link:
+This project is already running on Digital Ocean droplet, so you can simply add this bot to your telegram account with the following link:
 https://t.mr/newolenabot
 
 Or if you want to have your own version of the bot:
@@ -30,8 +30,10 @@ Clone the repo on your device using the command below:
 ```git init```
 
 ```git clone https://github.com/olensa/tg_bot.git``` 
-Create a file 
 
+Don't forget to create a new bot with BotFather[https://t.me/botfather]
+
+Have fun! U+1F609
 
 # Usage
 [(Back to top)](#table-of-contents)
