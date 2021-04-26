@@ -4,22 +4,8 @@
 
 Telegram bot, which will allow user to choose a program and will send daily exercises.
 
-
-
-
-
 <!-- Some badges from shields.io-->
-[![Python version](https://img.shields.io/pypi/pyversions/3)](https://www.python.org/download/releases/3.0/)
-
-[![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)](https://github.com/olensa/tg_bot)
-
-[![GitHub issues](https://img.shields.io/github/issues-raw/olensa/tg_bot)](https://github.com/olensa/tg_bot/issues)
-
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/olensa/tg_bot)](https://github.com/olensa/tg_bot/pulls)
-
-[![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)](https://github.com/olensa/tg_bot/releases)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/olensa/tg_bot/blob/main/LICENSE.txt)
+[![Python version](https://img.shields.io/pypi/pyversions/3)](https://www.python.org/download/releases/3.0/)[![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)](https://github.com/olensa/tg_bot)[![GitHub issues](https://img.shields.io/github/issues-raw/olensa/tg_bot)](https://github.com/olensa/tg_bot/issues)[![GitHub pull requests](https://img.shields.io/github/issues-pr/olensa/tg_bot)](https://github.com/olensa/tg_bot/pulls)[![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)](https://github.com/olensa/tg_bot/releases)[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/olensa/tg_bot/blob/main/LICENSE.txt)
 
 
 
