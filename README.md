@@ -33,7 +33,7 @@ Clone the repo on your device using the command below:
 
 Don't forget to create a new bot with [BotFather](https://t.me/botfather) and generate new token.
 Create a new file with a name 'telegram_token.py' and insert your newly generated token as string:
-'''API_TOKEN = 'YOUR TOKEN' '''
+```API_TOKEN = 'YOUR TOKEN' ```
 
 
 Have fun! U+1F609
