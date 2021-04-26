@@ -23,7 +23,7 @@ Telegram bot, which will allow user to choose a program and will send daily exer
 
 [![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)](https://github.com/olensa/tg_bot/releases)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/olensa/tg_bot/blob/main/LICENSE.txt)
 
 
 
