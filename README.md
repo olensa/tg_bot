@@ -36,14 +36,12 @@ Create a new file with a name 'telegram_token.py'. Insert your newly generated t
 
 ```API_TOKEN = 'YOUR TOKEN' ```
 
-
-Have fun! U+1F609
-
+Now you are set to add more features to your bot.
 # Usage
 [(Back to top)](#table-of-contents)
 
 <!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
-
+This bot was created to get daily exercises based on your chosen program from [darebe.com](https://darebee.com).
 <!--# Development
 [(Back to top)](#table-of-contents)-->
 
