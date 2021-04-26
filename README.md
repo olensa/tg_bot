@@ -1,4 +1,4 @@
-![Banner](https://user-images.githubusercontent.com/72365541/116121354-844ae600-a68e-11eb-983f-c70543b180d6.png)
+[![Banner](https://user-images.githubusercontent.com/72365541/116121354-844ae600-a68e-11eb-983f-c70543b180d6.png)](https://darebee.com/)
 
 # Darebee exercise bot
 
@@ -101,13 +101,7 @@ You could also add contact details for people to get in touch with you regarding
 # License
 [(Back to top)](#table-of-contents)
 
-<!-- Adding the license to README is a good practice so that people can easily refer to it.
-
-Make sure you have added a LICENSE file in your project folder. **Shortcut:** Click add new file in your root of your repo in GitHub > Set file name to LICENSE > GitHub shows LICENSE templates > Choose the one that best suits your project!
-
-I personally add the name of the license and provide a link to it like below. -->
-
-[GNU General Public License version 3](https://opensource.org/licenses/MIT)
+[MIT License](https://opensource.org/licenses/MIT)
 
 # Footer
 [(Back to top)](#table-of-contents)
