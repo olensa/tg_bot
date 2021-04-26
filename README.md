@@ -11,24 +11,17 @@ Telegram bot, which will allow user to choose a program and will send daily exer
 ![Banner](https://user-images.githubusercontent.com/72365541/116121354-844ae600-a68e-11eb-983f-c70543b180d6.png)
 
 
-<!--There are endless badges that you could use in your projects. And they do depend on the project. Some of the ones that I commonly use in every projects are given below. I use [**Shields IO**](https://shields.io/) for making badges. It is a simple and easy to use tool that you can use for almost all your badge cravings. -->
-https://img.shields.io/github/pipenv/locked/python-version/olensa/tg_bot
 
-<!-- Some badges that you could use -->
+<!-- Some badges from shields.io-->
 
-<!-- ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
-: This badge shows the version of the current release.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/navendu-pottekkat/awesome-readme)
-: I think it is self-explanatory. This gives people an idea about how the project is being maintained.
+![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)
 
-![GitHub issues](https://img.shields.io/github/issues-raw/navendu-pottekkat/awesome-readme)
-: This is a dynamic badge from [**Shields IO**](https://shields.io/) that tracks issues in your project and gets updated automatically. It gives the user an idea about the issues and they can just click the badge to view the issues.
+![GitHub issues](https://img.shields.io/github/issues-raw/olensa/tg_bot)
 
-![GitHub pull requests](https://img.shields.io/github/issues-pr/navendu-pottekkat/awesome-readme)
-: This is also a dynamic badge that tracks pull requests. This notifies the maintainers of the project when a new pull request comes.
+![GitHub pull requests](https://img.shields.io/github/issues-pr/olensa/tg_bot)
 
-![GitHub All Releases](https://img.shields.io/github/downloads/navendu-pottekkat/awesome-readme/total): If you are not like me and your project gets a lot of downloads(*I envy you*) then you should have a badge that shows the number of downloads! This lets others know how **Awesome** your project is and is worth contributing to.
+![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)
 
 ![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 : This shows what kind of open-source license your project uses. This is good idea as it lets people know how they can use your project for themselves.
