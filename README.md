@@ -7,14 +7,12 @@
 <!-- Describe your project in brief -->
 Telegram bot, which will allow user to choose a program and will send you daily exercises.
 
-<!-- The project title should be self explanotory and try not to make it a mouthful. (Although exceptions exist- **awesome-readme-writing-guide-for-open-source-projects** - would have been a cool name)
 
-![Pink and Red Motivation and Inspirational LinkedIn Banner](https://user-images.githubusercontent.com/72365541/116121354-844ae600-a68e-11eb-983f-c70543b180d6.png)
+![Pink and Red Motivation and Inspirational LinkedIn Banner]
+(https://user-images.githubusercontent.com/72365541/116121354-844ae600-a68e-11eb-983f-c70543b180d6.png)
 
 
-There are endless badges that you could use in your projects. And they do depend on the project. Some of the ones that I commonly use in every projects are given below. 
-
-I use [**Shields IO**](https://shields.io/) for making badges. It is a simple and easy to use tool that you can use for almost all your badge cravings. -->
+<!--There are endless badges that you could use in your projects. And they do depend on the project. Some of the ones that I commonly use in every projects are given below. I use [**Shields IO**](https://shields.io/) for making badges. It is a simple and easy to use tool that you can use for almost all your badge cravings. -->
 
 <!-- Some badges that you could use -->
 
