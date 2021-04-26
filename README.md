@@ -9,7 +9,7 @@ Telegram bot, which will allow user to choose a program and will send daily exer
 
 
 <!-- Some badges from shields.io-->
-
+[![Python version](https://img.shields.io/pypi/pyversions/3)](https://www.python.org/download/releases/3.0/)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)](https://github.com/olensa/tg_bot)
 
