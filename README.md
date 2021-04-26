@@ -1,14 +1,10 @@
-<!-- Add banner here -->
+![Banner](https://user-images.githubusercontent.com/72365541/116121354-844ae600-a68e-11eb-983f-c70543b180d6.png)
 
 # Darebee exercise bot
 
-<!-- Add buttons here -->
-
-<!-- Describe your project in brief -->
 Telegram bot, which will allow user to choose a program and will send daily exercises.
 
 
-![Banner](https://user-images.githubusercontent.com/72365541/116121354-844ae600-a68e-11eb-983f-c70543b180d6.png)
 
 
 
