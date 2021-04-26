@@ -26,7 +26,6 @@ Telegram bot, which will allow user to choose a program and will send daily exer
 ![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
 : This shows what kind of open-source license your project uses. This is good idea as it lets people know how they can use your project for themselves.
 
-![Tweet](https://img.shields.io/twitter/url?style=flat-square&logo=twitter&url=https%3A%2F%2Fnavendu.me%2Fnsfw-filter%2Findex.html): This is not essential but it is a cool way to let others know about your project! Clicking this button automatically opens twitter and writes a tweet about your project and link to it. All the user has to do is to click tweet. Isn't that neat? -->
 
 # Demo-Preview
 
@@ -129,7 +128,7 @@ Make sure you have added a LICENSE file in your project folder. **Shortcut:** Cl
 
 I personally add the name of the license and provide a link to it like below. -->
 
-[GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
+[GNU General Public License version 3](https://opensource.org/licenses/MIT)
 
 # Footer
 [(Back to top)](#table-of-contents)
