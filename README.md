@@ -23,8 +23,8 @@ Telegram bot, which will allow user to choose a program and will send daily exer
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)
 
-![GitHub](https://img.shields.io/github/license/navendu-pottekkat/awesome-readme)
-: This shows what kind of open-source license your project uses. This is good idea as it lets people know how they can use your project for themselves.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 
 # Demo-Preview
