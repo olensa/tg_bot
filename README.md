@@ -32,7 +32,8 @@ Clone the repo on your device using the command below:
 ```git clone https://github.com/olensa/tg_bot.git``` 
 
 Don't forget to create a new bot with [BotFather](https://t.me/botfather) and generate new token.
-Create a new file with a name 'telegram_token.py' and insert your newly generated token as string:
+Create a new file with a name 'telegram_token.py'. Insert your newly generated token as string:
+
 ```API_TOKEN = 'YOUR TOKEN' ```
 
 
