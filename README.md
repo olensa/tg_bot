@@ -15,13 +15,13 @@ Telegram bot, which will allow user to choose a program and will send daily exer
 <!-- Some badges from shields.io-->
 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)
+![GitHub last commit](https://img.shields.io/github/last-commit/olensa/tg_bot)(https://github.com/olensa/tg_bot)
 
-![GitHub issues](https://img.shields.io/github/issues-raw/olensa/tg_bot)
+![GitHub issues](https://img.shields.io/github/issues-raw/olensa/tg_bot)(https://github.com/olensa/tg_bot/issues)
 
-![GitHub pull requests](https://img.shields.io/github/issues-pr/olensa/tg_bot)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/olensa/tg_bot)(https://github.com/olensa/tg_bot/pulls)
 
-![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)
+![GitHub All Releases](https://img.shields.io/github/downloads/olensa/tg_bot/total)(https://github.com/olensa/tg_bot/releases)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
