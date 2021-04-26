@@ -31,7 +31,7 @@ Clone the repo on your device using the command below:
 
 ```git clone https://github.com/olensa/tg_bot.git``` 
 
-Don't forget to create a new bot with BotFather[https://t.me/botfather]
+Don't forget to create a new bot with [BotFather](https://t.me/botfather)
 
 Have fun! U+1F609
 
